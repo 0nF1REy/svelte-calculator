@@ -1,9 +1,0 @@
-{
-  "extends": "@tsconfig/svelte/tsconfig.json",
-
-  "include": ["../svelte-calculator/src/**/*"],
-  "exclude": ["../svelte-calculator/node_modules/*", "../svelte-calculator/__sapper__/*", "../svelte-calculator/public/*"],
-  "buildOptions": {
-    "target": "es2017",
-  }
-}
