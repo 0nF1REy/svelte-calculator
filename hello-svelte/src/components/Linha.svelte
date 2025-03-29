@@ -1,9 +1,11 @@
 <div class="linha">
-    <slot />
+  <slot />
 </div>
 
 <style>
-    .linha {
-        display: flex;
-    }
+  .linha {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
 </style>
