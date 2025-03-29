@@ -1,107 +1,104 @@
-# This repo is no longer maintained. Consider using `npm init vite` and selecting the `svelte` option or — if you want a full-fledged app framework — use [SvelteKit](https://kit.svelte.dev), the official application framework for Svelte.
+# Svelte Calculator
 
----
+<ul>
+  <li><h3><i>Página principal do projeto:</i></h3></li>
+</ul>
 
-# svelte app
+<img src="./readme_assets/pagina-principal.png" alt="Página principal do projeto: yuffie-cinematic"/>
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+## 🚀 Começando
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+<div align=center>
 
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
+<span style="font-size: 1.8em">Pré-requisitos</span>
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+  <img src="./readme_assets/git-logo.png" width="200" alt="Git Logo" />
+  <img src="./readme_assets/nodejs-logo.svg" width="200" alt="Node JS Logo" />
+</div>
 
+## Instalação
 
-## Get started
+Para executar localmente, siga os seguintes passos:
 
-Install the dependencies...
+1.  **Clone o repositório:**
 
-```bash
-cd svelte-app
-npm install
-```
+    ```bash
+    git clone https://github.com/0nF1REy/svelte-calculator.git
+    ```
 
-...then start [Rollup](https://rollupjs.org):
+2.  **Entre no diretório:**
+
+    ```bash
+    cd svelte-calculator
+    ```
+
+3.  **Instale as dependências:**
+
+    ```bash
+    npm install
+    ```
+
+## Rodando
+
+Para iniciar, use o comando:
 
 ```bash
 npm run dev
 ```
-
-Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
-
-If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
-
-## Building and running in production mode
-
-To create an optimised version of the app:
-
+Resposta:
 ```bash
-npm run build
+ ✓ Your application is ready~! 🚀
 ```
 
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+## Autor 🧑🛡️ 
 
+<div align="center">
+  <table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/0nF1REy" target="_blank">
+        <img src="./readme_assets/alan-ryan.jpg" height="160px;" alt="Foto de Alan Ryan"/><br>
+          <b>Alan Ryan</b>  
+      </a>
+    </td>
+  </tr>
+</table>
+</div>
 
-## Single-page app mode
+## 📫 Contribuir
 
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
+Se você deseja contribuir com o projeto, siga os seguintes passos:
 
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
+1. **Faça um fork** do repositório.
 
-```js
-"start": "sirv public --single"
-```
+2. **Crie uma branch** com a sua funcionalidade:
 
-## Using TypeScript
+   ```bash
+   git checkout -b feature/minha-funcionalidade
+   ```
 
-This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
+3. **Faça as alterações necessárias**.
 
-```bash
-node scripts/setupTypeScript.js
-```
+4. **Faça um commit** com suas alterações:
 
-Or remove the script via:
+   ```bash
+   git commit -m "Adicionado minha funcionalidade"
+   ```
 
-```bash
-rm scripts/setupTypeScript.js
-```
+5. **Envie para o repositório remoto**:
 
-If you want to use `baseUrl` or `path` aliases within your `tsconfig`, you need to set up `@rollup/plugin-alias` to tell Rollup to resolve the aliases. For more info, see [this StackOverflow question](https://stackoverflow.com/questions/63427935/setup-tsconfig-path-in-svelte).
+   ```bash
+   git push origin feature/minha-funcionalidade
+   ```
 
-## Deploying to the web
+6. **Abra um pull request** para a branch `main` do projeto original.
 
-### With [Vercel](https://vercel.com)
+### Documentações úteis
 
-Install `vercel` if you haven't already:
+- **<a href="https://www.atlassian.com/br/git/tutorials/making-a-pull-request" target="_blank">📝 Como criar uma solicitação pull</a>**
 
-```bash
-npm install -g vercel
-```
+- **<a href="https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716" target="_blank">💾 Padrão de commit</a>**
 
-Then, from within your project folder:
+## Licença
 
-```bash
-cd public
-vercel deploy --name my-project
-```
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
-```
+<a href="./LICENSE" target="_blank"><b>Licença MIT</b></a>
