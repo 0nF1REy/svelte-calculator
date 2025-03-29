@@ -1,8 +1,10 @@
 {
-  "name": "svelte-app",
+  "name": "svelte-calculator",
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "description": "A simple calculator built with Svelte.", 
+  "author": "Alan Ryan da Silva Domingues",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -27,5 +29,12 @@
   },
   "dependencies": {
     "sirv-cli": "^2.0.0"
-  }
+  },
+  "keywords": [
+    "svelte",
+    "calculator",
+    "javascript",
+    "frontend"
+  ],
+  "license": "MIT"
 }
