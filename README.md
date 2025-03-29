@@ -1,4 +1,4 @@
-# Svelte Calculator
+# Calculadora Svelte
 
 <ul>
   <li><h3><i>Página principal do projeto:</i></h3></li>
